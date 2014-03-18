@@ -1,0 +1,49 @@
+<html>
+<head>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="color_game.js"></script>
+	<style type="text/css">
+		.color0 {
+			background: #F00;
+		}
+		.color1 {
+			background: #0F0;
+		}
+		.color2 {
+			background: #00F;
+		}
+		.color3 {
+			background: #0FF;
+		}
+		.color4 {
+			background: #F0F;
+		}
+		.color5 {
+			background: #FF0;
+		}
+		.cell {
+			width: 100px;
+			height: 100px;
+		}
+		button {
+			height: 100px;
+			width: 100px;
+		}
+		#button-div {
+			margin-top: 30px;
+		}
+	</style>
+</head>
+<body>
+	<table id="board-table">
+	</table>
+	<div id="button-div">
+	</div>
+	<div>
+		<div>number of colors (max 6): <input type='text' value='5' id='color_count'></input></div>
+		<div>size x: <input type='text' value='5' id='size_x'></input></div>
+		<div>size y: <input type='text' value='5' id='size_y'></input></div>
+		<div><input type="button" value='run' id='run-button'></input></div>
+	</div>
+</body>
+</html>
